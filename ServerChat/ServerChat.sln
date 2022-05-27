@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerChat", "ServerChat.vcxproj", "{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}.Debug|x64.ActiveCfg = Debug|x64
+		{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}.Debug|x64.Build.0 = Debug|x64
+		{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}.Debug|x86.Build.0 = Debug|Win32
+		{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}.Release|x64.ActiveCfg = Release|x64
+		{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}.Release|x64.Build.0 = Release|x64
+		{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}.Release|x86.ActiveCfg = Release|Win32
+		{3A78EA82-6128-4ADF-81B9-FEBC2FC9A6DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6425E06-2D41-42B9-BA50-A84A7BB0E225}
+	EndGlobalSection
+EndGlobal
