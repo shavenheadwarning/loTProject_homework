@@ -1,3 +1,10 @@
+
+/*
+*
+*用于储存User信息的类
+*/
+
+
 #pragma once
 #include <winsock2.h>
 #include <string>

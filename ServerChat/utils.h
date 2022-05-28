@@ -1,3 +1,10 @@
+
+
+/*
+*
+* 一些功能函数的声明
+*/
+
 #pragma once
 #ifndef __UTILS_H
 #define __UTILS_H

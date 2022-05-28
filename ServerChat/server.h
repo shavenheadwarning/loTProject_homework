@@ -1,3 +1,11 @@
+
+
+/*
+sever端初始化相关的函数实现
+
+*/
+
+
 //#pragma once
 #ifndef __SERVER_H
 #define __SERVER_H
@@ -8,8 +16,6 @@
 #include "user.h"
 
 #define DEFAULT_PORT "27015"
-
-#define MAX_CONNETCTIONS 5
 
 void ServerInit();
 void AcceptFromClient(Users*);

@@ -1,6 +1,11 @@
 
 
 
+/*
+sever端初始化相关的函数实现
+
+*/
+
 #define WIN32_LEAN_AND_MEAN
 
 //
@@ -99,11 +104,10 @@ void AcceptFromClient(Users* usrsPtr) {
             return ;
         }
         else {
-            
+            //偷偷把用户名记录下来
             printf("accept connection\n");
             char tempbuff [10] = { 0 };
             recv(*clientSocket, tempbuff, 10, 0);
-
             usrsPtr->usrMap.emplace(std::string(tempbuff+1),clientSocket);
             
         }

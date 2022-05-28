@@ -1,9 +1,16 @@
 
+
+/*
+线程函数的实现
+*/
+
+
 #include <stdio.h>
 #include <queue>
 #include <string>
 #include <vector>
 #include <exception>
+
 // usr include 
 #include "threadFunctions.h"
 #include "server.h"

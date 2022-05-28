@@ -18,12 +18,12 @@ int main() {
 	ServerInit();
 	Users serverUsersMap;
 	
+	//创建用于发送消息的线程
 	HANDLE sendmsghandle = CreateThread(NULL, 1024, SendMessageToClient, &serverUsersMap, 0, NULL);
 
-	//function test
+	//等待连接
 	AcceptFromClient(&serverUsersMap);
 
-	printf("initiate finish\n");
 	while (1) {
 		Sleep(100);
 	}
